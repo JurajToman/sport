@@ -1,0 +1,641 @@
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.pt-100 {
+  font-size: 28px;
+}
+
+body, html {
+  height: 100%;
+  font-size: 18px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #152F4F;
+}
+
+/* BANNER SECTION */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #DAA21B;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  /* Half height */
+  height: 95vh;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #F5F9FF;
+  height: 38vh;
+  padding: 50px;
+  margin: 0px;
+}
+
+.intro .intro-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.intro .intro-heading p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* PROJECT SECTION */
+.project-area {
+  background-color: #152F4F;
+}
+
+.project-area .title {
+  color: #fff;
+}
+
+.single-project a {
+  color: #fff;
+}
+
+.single-project p {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .single-project img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
+}
+
+.section-gap {
+  padding: 80px 0;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+/* Book Now Section */
+.booknow-section {
+  background-color: #F5F9FF;
+  height: 68vh;
+  text-align: left;
+}
+
+.booknow-section h1 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.booknow-section .sub-book {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.booknow-section .row .example_d {
+  color: #DAA21B !important;
+  background: transparent;
+  padding: 20px;
+  border: 4px solid #DAA21B !important;
+  border-radius: 6px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-top: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.booknow-section .row .example_d:hover {
+  color: #152F4F !important;
+  border-radius: 50px;
+  border-color: #152F4F !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.booknow-section .row .booknow-subheading div {
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+}
+
+.booknow-section .row .booknow-subheading .booknow-description {
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+/* FOOTER SECTION */
+.mt-5 {
+  margin-top: 0 !important;
+}
+
+.footer {
+  background: #152F4F;
+  color: white;
+}
+
+.footer .links ul {
+  list-style-type: none;
+}
+
+.footer .links li a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+
+.footer .about-company i {
+  font-size: 28px;
+}
+
+.footer .about-company a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+
+.footer .location i {
+  font-size: 18px;
+}
+
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 10px;
+}
+
+/* LOG IN */
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #DAA21B;
+  margin-bottom: 8rem;
+}
+
+.card-signin {
+  margin-bottom: 8rem;
+  font-weight: 300;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url("https://images.unsplash.com/photo-1521412644187-c49fa049e84d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #152F4F;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  text-align: center;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  text-align: center;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 18px;
+  color: #152F4F;
+  display: none;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+/* PRICING */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.background {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px 25px;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.pricing-table {
+  -webkit-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.pricing-table * {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #152F4F;
+  padding: 25px;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #152F4F;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #DAA21B;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-top: 1px solid #152F4F;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #152F4F;
+}
+
+.pricing-price {
+  color: #DAA21B;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #152F4F;
+  border-radius: 10px;
+  color: #152F4F;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+/*
+  .pricing-button:hover,
+  .pricing-button:focus {
+    background-color: $primaryclr;
+  }*/
+.pricing-button.is-featured {
+  background-color: #DAA21B;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #DAA21B;
+}
+
+/* SLIDERSHOW */
+.w-100 {
+  height: 75vh;
+}
+
+.gym-section {
+  background-color: #F5F9FF;
+  height: auto;
+  padding: 50px;
+  margin: 0px;
+  text-align: center;
+}
+
+.gym-section .example_d {
+  color: #DAA21B !important;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 20px;
+  border: 4px solid #DAA21B !important;
+  border-radius: 6px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-top: 50px;
+}
+
+.gym-section .example_d:hover {
+  color: #152F4F !important;
+  border-radius: 50px;
+  border-color: #152F4F !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.gym-section .intro-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gym-section .intro-heading p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* VIDEO */
+.reviews {
+  background-color: #152F4F;
+  padding-bottom: 50px;
+}
+
+/* Activities Section */
+.bg2 {
+  /* The image used */
+  /* Half height */
+  height: 75vh;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ACTIVITIES Slideshow */
+.activities-slideshow {
+  background-color: #152F4F;
+}
+
+.activities-slideshow .w-100 {
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  /* HOMEPAGE */
+  .bg {
+    height: auto;
+  }
+  .centered {
+    display: none;
+  }
+  .intro {
+    height: auto;
+  }
+  .booknow-section {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .booknow-section .row .booknow-subheading {
+    font-size: 18px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .pr-5 {
+    padding: 0 !important;
+  }
+  .gym-section {
+    height: auto;
+  }
+  .bg2 {
+    height: auto;
+  }
+  .w-100 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* HOMEPAGE */
+  .bg {
+    height: auto;
+  }
+  .centered {
+    display: none;
+  }
+  .intro {
+    height: auto;
+  }
+  .booknow-section {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .booknow-section .row .booknow-subheading {
+    font-size: 18px;
+  }
+  .booknow-section .row .booknow-subheading div {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .pr-5 {
+    padding: 0 !important;
+  }
+  .gym-section {
+    height: auto;
+  }
+  .bg2 {
+    height: auto;
+  }
+  .w-100 {
+    height: auto;
+  }
+  .pt-100, .pt-30 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
